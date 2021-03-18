@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+  </head>
+  <body>
+    <div class="instruction-box">
+      <button class="collapsible">Instructions</button>
+      <div class ="content">
+        <ul>
+          <li>Select the edge to be checked.</li>
+          <li>Click on the selected edge if it is to be added .</li> 
+          <li>Select carefully as on any wrong selection the whole graph should be reset .</li>
+          <li>Click on <b>Reset</b> to start over with the same graph</li>
+          <li>Click on <b>New Graph</b> to start over with a new graph</li>
+          <li>Zoom or Adjust graph by dragging nodes according to your convenience</li>  
+        </ul> 
+      </div>
+    </div>
+     
+    <div id="que">
+      <p>
+        <b>Question : </b>Maximum spanning tree is the spanning tree with maximum length of tree. Apply the concept of Kruskal's to find Maximum spanning tree of graph below
+        {<b>Hint :</b> Sort and check in decreasing order of edge weights and add it to spanning tree if it does not form a circle}
+      </p>
+    </div>
+    
+    <center>   
+      <div id="graph"></div> 
+    </center>
+    
+    <div id="legend" >
+      <ul class="legend">
+        <li><span class="blac"></span> Not Visited</li>
+        <li><span class="brow"></span> Edge added to MST</li>
+        <li><span class="blu"></span> Edge being/has been checked</li>
+      </ul>
+    </div>
+    <div id="instruction"class="comment-box">
+      <b>Observations</b><br>
+      <p id = "ins"> </p>
+    </div>
+    
+    <div class="buttons">
+      <button id="res"  class="button-input">Reset</button>
+      <button id="rege" class="button-input">New Graph</button>
+      <button id="subm" class="button-input">Submit</button>
+    </div>
+    
+    <title>Kruskal's</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="docs/static/libs/vis.min.js"></script>
+    <script src="js/Algo2.js"></script> 
+    <script src="js/data.js"></script> 
+    <link href="docs/static/libs/vis.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../../assets/css/common-styles.css">
+    <link href="css/mst.css" rel="stylesheet" type="text/css" />
+<script src="assets/js/instruction-box.js"></script>
+    <script src="js/mst_kruskal_exercise.js"></script> 
+    
+  </body>
+</html>
