@@ -19,4 +19,4 @@ From the mentioned algorithm, we can conclude that,
    - Look at the picture below and work out the result of each iteration.
 
 ### Iteration by Iteration Visualization of Prim's
-<img src="images/primfinal"/>
+<img src="images/primfinal.png"/>
