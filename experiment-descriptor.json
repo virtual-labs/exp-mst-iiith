@@ -60,7 +60,7 @@
      },
     {
       "unit-type": "lu",
-      "label": "Kruskal's Algorithm",
+      "label": "Kruskals Algorithm",
       "basedir": "kruskals-algorithm",
       "units": [
         {
@@ -82,7 +82,7 @@
         },
         {
           "unit-type": "task",
-          "label": "Demo of Kruskal's Algorithm",
+          "label": "Demo of Kruskals Algorithm",
           "content-type": "video",
           "source": "demo-of-kruskals-algorithm.md",
           "target": "demo-of-kruskals-algorithm.html"
@@ -90,21 +90,21 @@
         
         {
           "unit-type": "task",
-          "label": "Kruskal's Demo",
+          "label": "Kruskals Demo",
           "content-type": "simulation",
           "source": "simulation/mst_kruskal_demo.html",
           "target": "mst_kruskal_demo.html"
         },
 	{
           "unit-type": "task",
-          "label": "Kruskal's Practice",
+          "label": "Kruskals Practice",
           "content-type": "simulation",
           "source": "simulation/mst_kruskal_practice.html",
           "target": "mst_kruskal_practice.html"
         },
 	{
           "unit-type": "task",
-          "label": "Kruskal's Exercise",
+          "label": "Kruskals Exercise",
           "content-type": "simulation",
           "source": "simulation/mst_kruskal_exercise.html",
           "target": "mst_kruskal_exercise.html"
@@ -112,7 +112,7 @@
         
 	{
          "unit-type": "task",
-         "label": "Kruskal's Quiz",
+         "label": "Kruskals Quiz",
          "content-type": "assesment",
          "source": "kruskals-quiz.js",
          "target": "kruskals-quiz.html"
@@ -123,7 +123,7 @@
    
         {
       "unit-type": "lu",
-      "label": "Analysis of Kruskal's",
+      "label": "Analysis of Kruskals",
       "basedir": "analysis-of-kruskals",
       "units": [
         {
@@ -138,7 +138,7 @@
         },
         {
           "unit-type": "task",
-          "label": "Time and Space Complexity of Kruskal's",
+          "label": "Time and Space Complexity of Kruskals",
           "content-type": "video",
           "source": "time-and-space-complexity-of-kruskals.md",
           "target": "time-and-space-complexity-of-kruskals.html"
@@ -146,7 +146,7 @@
         
         {
           "unit-type": "task",
-          "label": "Analysis Quiz in Kruskal's",
+          "label": "Analysis Quiz in Kruskals",
           "content-type": "assesment",
           "source": "analysis-quiz-in-kruskals.js",
           "target": "analysis-quiz-in-kruskals.html"
@@ -156,7 +156,7 @@
 
     {
       "unit-type": "lu",
-      "label": "Prim's Algorithm",
+      "label": "Prims Algorithm",
       "basedir": "prims-algorithm",
       "units": [
         {
@@ -171,14 +171,14 @@
         },
 	{
           "unit-type": "task",
-          "label": "Basic Concept in Prim's",
+          "label": "Basic Concept in Prims",
           "content-type": "video",
           "source": "basic-concept-in-prims.md",
           "target": "basic-concept-in-prims.html"
         },
         {
           "unit-type": "task",
-          "label": "Demo of Prim's Algorithm",
+          "label": "Demo of Prims Algorithm",
           "content-type": "video",
           "source": "demo-of-prims-algorithm.md",
           "target": "demo-of-prims-algorithm.html"
@@ -186,21 +186,21 @@
         	
         {
           "unit-type": "task",
-          "label": "Prim's Demo  ",
+          "label": "Prims Demo  ",
           "content-type": "simulation",
           "source": "simulation/mst_prims_demo.html",
           "target": "mst_prims_demo.html"
         },
 	{
           "unit-type": "task",
-          "label": "Prim's Practice",
+          "label": "Prims Practice",
           "content-type": "simulation",
           "source": "simulation/mst_prims_practice.html",
           "target": "mst_prims_practice.html"
         },
 	{
           "unit-type": "task",
-          "label": "Prim's Exercise",
+          "label": "Prims Exercise",
           "content-type": "simulation",
           "source": "simulation/mst_prims_exercise.html",
           "target": "mst_prims_exercise.html"
@@ -208,7 +208,7 @@
         
 	{
          "unit-type": "task",
-         "label": "Prim's Quiz",
+         "label": "Prims Quiz",
          "content-type": "assesment",
          "source": "prims-quiz.js",
          "target": "prims-quiz.html"
@@ -219,7 +219,7 @@
    
         {
       "unit-type": "lu",
-      "label": "Analysis of Prim's",
+      "label": "Analysis of Prims",
       "basedir": "analysis-of-prims",
       "units": [
         {
@@ -234,21 +234,21 @@
         },
         {
           "unit-type": "task",
-          "label": "Time and Space Complexity of Prim's",
+          "label": "Time and Space Complexity of Prims",
           "content-type": "video",
           "source": "time-and-space-complexity-of-prims.md",
           "target": "time-and-space-complexity-of-prims.html"
         },
         {
           "unit-type": "task",
-          "label": "Comparison with Kruskal's and Others",
+          "label": "Comparison with Kruskals and Others",
           "content-type": "video",
           "source": "comparison-with-kruskals-and-others.md",
           "target": "comparison-with-kruskals-and-others.html"
         },
         {
           "unit-type": "task",
-          "label": "Analysis Quiz Prim's",
+          "label": "Analysis Quiz Prims",
           "content-type": "assesment",
           "source": "analysis-quiz-of-prims.js",
           "target": "analysis-quiz-of-prims.html"
