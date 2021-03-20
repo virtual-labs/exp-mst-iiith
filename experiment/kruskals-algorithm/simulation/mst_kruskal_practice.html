@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+  </head>
+  <body>
+    <div class="instruction-box">
+      <button class="collapsible"> Instructions </button>
+      <div class ="content">
+        <li>Zoom or Adjust graph by dragging nodes according to your convenience</li> 
+        <li>Select the edge to be checked.</li>
+        <li>Click on the selected edge if it is to be added .</li> 
+        <li>Click on <b>Reset</b> to start over with a same graph</li>
+        <li>Click on <b>New Graph</b> to start over with a new graph</li>
+      </div>
+    </div>
+     
+    <center>   
+      <div id="graph"></div> 
+    </center>
+    
+    <div id="legend" >
+      <ul class="legend">
+        <li><span class="blac"></span> Not Visited</li>
+        <li><span class="brow"></span> Edge added to MST</li>
+        <li><span class="blu"></span> Edge being/has been checked</li>
+      </ul>
+    </div>
+    
+    
+    <div id="instruction"class="comment-box">
+      <b>Observations</b><br>
+      <p id = "ins"> </p>
+    </div>
+    <div class="buttons">
+      <button id="res"  class="button-input">Reset</button>
+      <button id="rege" class="button-input">New Graph</button>
+    </div>
+    
+    <title>Kruskal's</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="docs/static/libs/vis.min.js"></script>
+    <script src="js/Algo.js"></script> 
+    <script src="js/data.js"></script> 
+    <link href="docs/static/libs/vis.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../../assets/css/common-styles.css">
+    <link href=css/mst.css" rel="stylesheet" type="text/css" />
+    <script src="js/mst_kruskal_practice.js"></script> 
+<script src="../../assets/js/instruction-box.js"></script>
+    
+  </body>
+</html>

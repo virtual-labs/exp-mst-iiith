@@ -1,0 +1,276 @@
+{
+  "unit-type": "lu",
+  "label": "Minimum Spanning Trees",
+  "basedir": ".",
+  "units": [
+    {
+      "unit-type": "aim"
+    },
+    {
+      "unit-type": "task",
+      "label": "Overview",
+      "content-type": "video",
+      "source": "overview.md",
+      "target": "overview.html"
+    },
+	{
+      "unit-type": "task",
+      "label": "Pre Test Quiz Instructions",
+      "content-type": "video",
+      "source": "pre-test.md",
+      "target": "pre-test.html"
+    },
+{
+      "unit-type": "task",
+      "label": "Basics Recap",
+      "content-type": "video",
+      "source": "basic-recap.md",
+      "target": "basic-recap.html"
+    },
+    {
+      "unit-type": "task",
+      "label": "Algorithm Recap",
+      "content-type": "video",
+      "source": "algorithm-recap.md",
+      "target": "algorithm-recap.html"
+    },
+    {
+      "unit-type": "task",
+      "label": "Pre Test Quiz",
+      "content-type": "assesment",
+      "source": "pretest.js",
+      "target": "pretest.html"
+    },
+	{
+      "unit-type": "lu",
+      "label": "MST",
+      "basedir": "mst",
+      "units": [
+        {
+          "unit-type": "aim"
+        },
+        {
+          "unit-type": "task",
+          "label": "Overview",
+          "content-type": "video",
+          "source": "overview.md",
+          "target": "overview.html"
+        }
+	]
+     },
+    {
+      "unit-type": "lu",
+      "label": "Kruskals Algorithm",
+      "basedir": "kruskals-algorithm",
+      "units": [
+        {
+          "unit-type": "aim"
+        },
+        {
+          "unit-type": "task",
+          "label": "Overview",
+          "content-type": "video",
+          "source": "overview.md",
+          "target": "overview.html"
+        },
+	{
+          "unit-type": "task",
+          "label": "Basic Concept",
+          "content-type": "video",
+          "source": "basic-concept.md",
+          "target": "basic-concept.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "Demo of Kruskals Algorithm",
+          "content-type": "video",
+          "source": "demo-of-kruskals-algorithm.md",
+          "target": "demo-of-kruskals-algorithm.html"
+        },
+        
+        {
+          "unit-type": "task",
+          "label": "Kruskals Demo",
+          "content-type": "simulation",
+          "source": "simulation/mst_kruskal_demo.html",
+          "target": "mst_kruskal_demo.html"
+        },
+	{
+          "unit-type": "task",
+          "label": "Kruskals Practice",
+          "content-type": "simulation",
+          "source": "simulation/mst_kruskal_practice.html",
+          "target": "mst_kruskal_practice.html"
+        },
+	{
+          "unit-type": "task",
+          "label": "Kruskals Exercise",
+          "content-type": "simulation",
+          "source": "simulation/mst_kruskal_exercise.html",
+          "target": "mst_kruskal_exercise.html"
+        },
+        
+	{
+         "unit-type": "task",
+         "label": "Kruskals Quiz",
+         "content-type": "assesment",
+         "source": "kruskals-quiz.js",
+         "target": "kruskals-quiz.html"
+       }
+      
+      ]
+    },
+   
+        {
+      "unit-type": "lu",
+      "label": "Analysis of Kruskals",
+      "basedir": "analysis-of-kruskals",
+      "units": [
+        {
+          "unit-type": "aim"
+        },
+	{
+          "unit-type": "task",
+          "label": "Overview",
+          "content-type": "video",
+          "source": "overview.md",
+          "target": "overview.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "Time and Space Complexity of Kruskals",
+          "content-type": "video",
+          "source": "time-and-space-complexity-of-kruskals.md",
+          "target": "time-and-space-complexity-of-kruskals.html"
+        },
+        
+        {
+          "unit-type": "task",
+          "label": "Analysis Quiz in Kruskals",
+          "content-type": "assesment",
+          "source": "analysis-quiz-in-kruskals.js",
+          "target": "analysis-quiz-in-kruskals.html"
+        }
+      ]
+    },
+
+    {
+      "unit-type": "lu",
+      "label": "Prims Algorithm",
+      "basedir": "prims-algorithm",
+      "units": [
+        {
+          "unit-type": "aim"
+        },
+        {
+          "unit-type": "task",
+          "label": "Overview",
+          "content-type": "video",
+          "source": "overview.md",
+          "target": "overview.html"
+        },
+	{
+          "unit-type": "task",
+          "label": "Basic Concept in Prims",
+          "content-type": "video",
+          "source": "basic-concept-in-prims.md",
+          "target": "basic-concept-in-prims.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "Demo of Prims Algorithm",
+          "content-type": "video",
+          "source": "demo-of-prims-algorithm.md",
+          "target": "demo-of-prims-algorithm.html"
+        },
+        	
+        {
+          "unit-type": "task",
+          "label": "Prims Demo  ",
+          "content-type": "simulation",
+          "source": "simulation/mst_prims_demo.html",
+          "target": "mst_prims_demo.html"
+        },
+	{
+          "unit-type": "task",
+          "label": "Prims Practice",
+          "content-type": "simulation",
+          "source": "simulation/mst_prims_practice.html",
+          "target": "mst_prims_practice.html"
+        },
+	{
+          "unit-type": "task",
+          "label": "Prims Exercise",
+          "content-type": "simulation",
+          "source": "simulation/mst_prims_exercise.html",
+          "target": "mst_prims_exercise.html"
+        },
+        
+	{
+         "unit-type": "task",
+         "label": "Prims Quiz",
+         "content-type": "assesment",
+         "source": "prims-quiz.js",
+         "target": "prims-quiz.html"
+       }
+      
+      ]
+    },
+   
+        {
+      "unit-type": "lu",
+      "label": "Analysis of Prims",
+      "basedir": "analysis-of-prims",
+      "units": [
+        {
+          "unit-type": "aim"
+        },
+	{
+          "unit-type": "task",
+          "label": "Overview",
+          "content-type": "video",
+          "source": "overview.md",
+          "target": "overview.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "Time and Space Complexity of Prims",
+          "content-type": "video",
+          "source": "time-and-space-complexity-of-prims.md",
+          "target": "time-and-space-complexity-of-prims.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "Comparison with Kruskals and Others",
+          "content-type": "video",
+          "source": "comparison-with-kruskals-and-others.md",
+          "target": "comparison-with-kruskals-and-others.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "Analysis Quiz Prims",
+          "content-type": "assesment",
+          "source": "analysis-quiz-of-prims.js",
+          "target": "analysis-quiz-of-prims.html"
+        }
+      ]
+    },
+
+
+    {
+      "unit-type": "task",
+      "label": "Post Test Quiz",
+      "content-type": "assesment",
+      "source": "posttest.js",
+      "target": "posttest.html"
+    },
+       
+    {
+      "unit-type": "task",
+      "label": "Further Readings/References",
+      "content-type": "text",
+      "source": "further-reading-and-references.md",
+      "target": "further-reading-and-references.html"
+    }
+  ]
+}
