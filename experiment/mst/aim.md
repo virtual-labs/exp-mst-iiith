@@ -1,3 +1,7 @@
+### Estimated Time
+
+15 minutes
+
 ### Observations based on MST
 
    - For a given graph there can be any number of MSTs but weight of MST to a graph is unique.
