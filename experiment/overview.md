@@ -1,6 +1,4 @@
-### Estimated Time
 
-1 hour
 
 ### Introduction
 <iframe src="https://www.youtube.com/embed/hXjUDwYiQmA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -27,7 +25,7 @@ And above all, a curiosity to learn and explore..!
 |Module 	|Weightage |	Expectation|
 |---------------|----------|---------------|
 |Pre Test 	|5% 	|Solve All Questions|
-|MST 	10% 	Understand concept of MST|
+|MST 	|10% 	|Understand concept of MST|
 |Kruskal's Algorithm 	|20% |	Understand the Kruskal's Algorithm|
 |Analysis of Kruskal's |	15% |	Understand the time and space complexity|
 |Prim's Algorithm 	|20% |	Understand the Prim's Algorithm|
