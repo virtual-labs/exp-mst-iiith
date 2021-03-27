@@ -90,7 +90,7 @@
 
 
     const myQuestions = [{
-            question: "1. What is the time complexity of Kruskals algorithm? ", ///// Write the question inside double quotes
+            question: "1. What is the time complexity of Kruskal's algorithm? ", ///// Write the question inside double quotes
             answers: {
                 a: "Best case is when given graph is a tree it self ", ///// Write the option 1 inside double quotes
                 b: " Best case O(n<sup>2</sup>) ", ///// Write the option 2 inside double quotes
@@ -113,7 +113,7 @@
     },
 
 {
-      question: "3. Which case is the best case Time Complexity of Kruskals ? ",  ///// Write the question inside double quotes
+      question: "3. Which case is the best case Time Complexity of Kruskal's ? ",  ///// Write the question inside double quotes
       answers: {
         a: "Max.no of edges and many cycles  ",                  ///// Write the option 1 inside double quotes
         b: "Min.no of edges and minimum cycles ",                  ///// Write the option 2 inside double quotes
@@ -136,7 +136,7 @@
     },
 
 {
-      question: "5. What is the best case Time Complexity of Kruskals?",  ///// Write the question inside double quotes
+      question: "5. What is the best case Time Complexity of Kruskal's?",  ///// Write the question inside double quotes
       answers: {
         a: "O((N-1)log(E)+Elog(E))",                  ///// Write the option 1 inside double quotes
         b: "O((N)log(N)+Elog(E))  ",                  ///// Write the option 2 inside double quotes

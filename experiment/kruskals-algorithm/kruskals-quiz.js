@@ -90,7 +90,7 @@
 
 
     const myQuestions = [{
-            question: "1. When do we add an edge to MST while running Kruskals ? ", ///// Write the question inside double quotes
+            question: "1. When do we add an edge to MST while running Kruskal's ? ", ///// Write the question inside double quotes
             answers: {
                 a: "When circle is formed by the new edge", ///// Write the option 1 inside double quotes
                 b: "when the added edge dosen't create a circle", ///// Write the option 2 inside double quotes
@@ -123,7 +123,7 @@
     },
 
 {
-      question: "4. Consider the following statements.<br>S1. Kruskals algorithm might produce a non-minimal spanning tree.<br>S2. Kruskals algorithm can efficiently implemented using the disjoint-set data structure. ",  ///// Write the question inside double quotes
+      question: "4. Consider the following statements.<br>S1. Kruskal’s algorithm might produce a non-minimal spanning tree.<br>S2. Kruskal’s algorithm can efficiently implemented using the disjoint-set data structure. ",  ///// Write the question inside double quotes
       answers: {
         a: "S1 is true but S2 is false  ",                  ///// Write the option 1 inside double quotes
         b: "Both S1 and S2 are false",                  ///// Write the option 2 inside double quotes
@@ -135,7 +135,7 @@
     },
 
 {
-      question: "5. Which of the following is false about the Kruskals algorithm?",  ///// Write the question inside double quotes
+      question: "5. Which of the following is false about the Kruskal’s algorithm?",  ///// Write the question inside double quotes
       answers: {
         a: "  It is a greedy algorithm  ",                  ///// Write the option 1 inside double quotes
         b: "It constructs MST by selecting edges in increasing order of their weights  ",                  ///// Write the option 2 inside double quotes

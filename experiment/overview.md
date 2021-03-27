@@ -25,7 +25,7 @@ And above all, a curiosity to learn and explore..!
 |Module 	|Weightage |	Expectation|
 |---------------|----------|---------------|
 |Pre Test 	|5% 	|Solve All Questions|
-|MST 	10% 	Understand concept of MST|
+|MST 	|10% 	|Understand concept of MST|
 |Kruskal's Algorithm 	|20% |	Understand the Kruskal's Algorithm|
 |Analysis of Kruskal's |	15% |	Understand the time and space complexity|
 |Prim's Algorithm 	|20% |	Understand the Prim's Algorithm|
