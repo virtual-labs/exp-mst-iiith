@@ -90,7 +90,7 @@
 
 
     const myQuestions = [{
-            question: "1. What is the time complexity of Prim's algorithm? ", ///// Write the question inside double quotes
+            question: "1. What is the time complexity of Prims algorithm? ", ///// Write the question inside double quotes
             answers: {
                 a: "O((V+E)log(V))", ///// Write the option 1 inside double quotes
                 b: " O(Vlog(V)+Elog(E)) ", ///// Write the option 2 inside double quotes
@@ -101,7 +101,7 @@
         },
 
     {
-      question: "2. Is Prim's algorithm always better than Kruskal's algorithm?",  ///// Write the question inside double quotes
+      question: "2. Is Prim's algorithm always better than Kruskals algorithm?",  ///// Write the question inside double quotes
       answers: {
         a: "Yes ",                  ///// Write the option 1 inside double quotes
         b: "No",                  ///// Write the option 2 inside double quotes
@@ -112,7 +112,7 @@
     },
 
 {
-      question: "3. What is the best case Time Complexity of Prim's algorithm?",  ///// Write the question inside double quotes
+      question: "3. What is the best case Time Complexity of Prims algorithm?",  ///// Write the question inside double quotes
       answers: {
         a: "O(V)  ",                  ///// Write the option 1 inside double quotes
         b: "O(n<Sup>2</sup>)",                  ///// Write the option 2 inside double quotes
@@ -123,7 +123,7 @@
     },
 
 {
-      question: "4. What is the worst case Time Complexity of Prim’s algorithm if adjacency matrix is used? ",  ///// Write the question inside double quotes
+      question: "4. What is the worst case Time Complexity of Prims algorithm if adjacency matrix is used? ",  ///// Write the question inside double quotes
       answers: {
         a: "O(log V) ",                  ///// Write the option 1 inside double quotes
         b: "O(V<sup>2</sup>)",                  ///// Write the option 2 inside double quotes
@@ -135,7 +135,7 @@
     },
 
 {
-      question: "5.  Which of the following statements is true<br>S1 . Prim’s algorithm resembles Dijkstra’s algorithm.<br>S2 . Kruskal’s algorithm is best suited for the sparse graphs than the prim’s algorithm. ",  ///// Write the question inside double quotes
+      question: "5.  Which of the following statements is true<br>S1 . Prim’s algorithm resembles Dijkstra’s algorithm.<br>S2 . Kruskals algorithm is best suited for the sparse graphs than the prims algorithm. ",  ///// Write the question inside double quotes
       answers: {
         a: " S1 and S2 both are false  ",                  ///// Write the option 1 inside double quotes
         b: " S1 is false and S2 is true  ",                  ///// Write the option 2 inside double quotes

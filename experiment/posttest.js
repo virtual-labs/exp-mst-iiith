@@ -100,7 +100,7 @@
         },
 
     {
-      question: "2. What is the best case Time Complexity of Kruskal's?",  ///// Write the question inside double quotes
+      question: "2. What is the best case Time Complexity of Kruskals?",  ///// Write the question inside double quotes
       answers: {
         a: "O((N-1)log(E)+Elog(E)) ",                  ///// Write the option 1 inside double quotes
         b: "O((N)log(N)+Elog(E))",                  ///// Write the option 2 inside double quotes
@@ -111,7 +111,7 @@
     },
 
 {
-      question: "3. How many iterations of MST are required to run Kruskal's algorithm on a non-cyclic graph ?",  ///// Write the question inside double quotes
+      question: "3. How many iterations of MST are required to run Kruskals algorithm on a non-cyclic graph ?",  ///// Write the question inside double quotes
       answers: {
         a: "V ",                  ///// Write the option 1 inside double quotes
         b: "V-1",                  ///// Write the option 2 inside double quotes
@@ -134,7 +134,7 @@
     },
 
 {
-      question: "5.  Which of the following is false about Prim’s algorithm?",  ///// Write the question inside double quotes
+      question: "5.  Which of the following is false about Prims algorithm?",  ///// Write the question inside double quotes
       answers: {
         a: " It is started from an edge ",                  ///// Write the option 1 inside double quotes
         b: "It constructs MSt in increasing order of their weights ",                  ///// Write the option 2 inside double quotes

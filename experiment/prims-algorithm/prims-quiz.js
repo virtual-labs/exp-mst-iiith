@@ -114,9 +114,9 @@
 {
       question: "3. Which of the following statements are false ?",  ///// Write the question inside double quotes
       answers: {
-        a: "Prim's algo must be started from any vertex ",                  ///// Write the option 1 inside double quotes
-        b: "Prim's algo defenitely takes N-1 iterations to find MST ",                  ///// Write the option 2 inside double quotes
-	c: "Prim's algo started from a diferent vertices may give different MSts  ", ///// Write the option 3 inside double quotes
+        a: "Prims algo must be started from any vertex ",                  ///// Write the option 1 inside double quotes
+        b: "Prims algo defenitely takes N-1 iterations to find MST ",                  ///// Write the option 2 inside double quotes
+	c: "Prims algo started from a diferent vertices may give different MSts  ", ///// Write the option 3 inside double quotes
         d: "None of the above are false ", ///// Write the option 4 inside double quotes
 	e: "One of a,b,c is false", ///// Write the option 4 inside double quotes
               },
@@ -124,7 +124,7 @@
     },
 
 {
-      question: "4. Prim’s algorithm can be efficiently implemented using _____ for graphs with greater density. ",  ///// Write the question inside double quotes
+      question: "4. Prims algorithm can be efficiently implemented using _____ for graphs with greater density. ",  ///// Write the question inside double quotes
       answers: {
         a: "d-array heap ",                  ///// Write the option 1 inside double quotes
         b: "linear search ",                  ///// Write the option 2 inside double quotes

@@ -16,14 +16,14 @@
 	
 {
       "unit-type": "task",
-      "label": "Basics Recap",
+      "label": "Recap",
       "content-type": "video",
       "source": "basic-recap.md",
       "target": "basic-recap.html"
     },
     {
       "unit-type": "task",
-      "label": "Algorithm Recap",
+      "label": "Recap: Algorithm ",
       "content-type": "video",
       "source": "algorithm-recap.md",
       "target": "algorithm-recap.html"
@@ -63,7 +63,7 @@
         
 	{
           "unit-type": "task",
-          "label": "Basic Concept",
+          "label": "Concept",
           "content-type": "video",
           "source": "basic-concept.md",
           "target": "basic-concept.html"
@@ -147,7 +147,7 @@
         
 	{
           "unit-type": "task",
-          "label": "Basic Concept ",
+          "label": "Concept ",
           "content-type": "video",
           "source": "basic-concept-in-prims.md",
           "target": "basic-concept-in-prims.html"
