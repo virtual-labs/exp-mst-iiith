@@ -28,13 +28,6 @@
       "source": "algorithm-recap.md",
       "target": "algorithm-recap.html"
     },
-    {
-      "unit-type": "task",
-      "label": "Pre Test Quiz",
-      "content-type": "assesment",
-      "source": "pretest.js",
-      "target": "pretest.html"
-    },
 	{
       "unit-type": "lu",
       "label": "MST",
@@ -96,15 +89,7 @@
           "content-type": "simulation",
           "source": "simulation/mst_kruskal_exercise.html",
           "target": "mst_kruskal_exercise.html"
-        },
-        
-	{
-         "unit-type": "task",
-         "label": " Quiz",
-         "content-type": "assesment",
-         "source": "kruskals-quiz.js",
-         "target": "kruskals-quiz.html"
-       }
+        }
       
       ]
     },
@@ -124,14 +109,6 @@
           "content-type": "video",
           "source": "time-and-space-complexity-of-kruskals.md",
           "target": "time-and-space-complexity-of-kruskals.html"
-        },
-        
-        {
-          "unit-type": "task",
-          "label": " Quiz ",
-          "content-type": "assesment",
-          "source": "analysis-quiz-in-kruskals.js",
-          "target": "analysis-quiz-in-kruskals.html"
         }
       ]
     },
@@ -180,15 +157,7 @@
           "content-type": "simulation",
           "source": "simulation/mst_prims_exercise.html",
           "target": "mst_prims_exercise.html"
-        },
-        
-	{
-         "unit-type": "task",
-         "label": " Quiz",
-         "content-type": "assesment",
-         "source": "prims-quiz.js",
-         "target": "prims-quiz.html"
-       }
+        }
       
       ]
     },
@@ -215,26 +184,10 @@
           "content-type": "video",
           "source": "comparison-with-kruskals-and-others.md",
           "target": "comparison-with-kruskals-and-others.html"
-        },
-        {
-          "unit-type": "task",
-          "label": " Quiz ",
-          "content-type": "assesment",
-          "source": "analysis-quiz-of-prims.js",
-          "target": "analysis-quiz-of-prims.html"
         }
       ]
     },
 
-
-    {
-      "unit-type": "task",
-      "label": "Post Test Quiz",
-      "content-type": "assesment",
-      "source": "posttest.js",
-      "target": "posttest.html"
-    },
-       
     {
       "unit-type": "task",
       "label": "Further Readings/References",
