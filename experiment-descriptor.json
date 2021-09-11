@@ -32,7 +32,7 @@
       "unit-type": "task",
       "label": "Pre Test Quiz",
       "content-type": "assesment",
-      "source": "pretest.js",
+      "source": "pretest.json",
       "target": "pretest.html"
     },
 	{
@@ -102,7 +102,7 @@
          "unit-type": "task",
          "label": " Quiz",
          "content-type": "assesment",
-         "source": "kruskals-quiz.js",
+         "source": "kruskals-quiz.json",
          "target": "kruskals-quiz.html"
        }
       
@@ -130,7 +130,7 @@
           "unit-type": "task",
           "label": " Quiz ",
           "content-type": "assesment",
-          "source": "analysis-quiz-in-kruskals.js",
+          "source": "analysis-quiz-in-kruskals.json",
           "target": "analysis-quiz-in-kruskals.html"
         }
       ]
@@ -186,7 +186,7 @@
          "unit-type": "task",
          "label": " Quiz",
          "content-type": "assesment",
-         "source": "prims-quiz.js",
+         "source": "prims-quiz.json",
          "target": "prims-quiz.html"
        }
       
@@ -220,7 +220,7 @@
           "unit-type": "task",
           "label": " Quiz ",
           "content-type": "assesment",
-          "source": "analysis-quiz-of-prims.js",
+          "source": "analysis-quiz-of-prims.json",
           "target": "analysis-quiz-of-prims.html"
         }
       ]
@@ -231,7 +231,7 @@
       "unit-type": "task",
       "label": "Post Test Quiz",
       "content-type": "assesment",
-      "source": "posttest.js",
+      "source": "posttest.json",
       "target": "posttest.html"
     },
        

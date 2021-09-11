@@ -1,1 +1,60 @@
-[{"question":"1. Let G be an undirected connected graph with distinct edge weight. Let emax be the edge with maximum weight and emin the edge with minimum weight. Which of the following statements is false? ","answers":{"a":"Every minimum spanning tree of G must contain emin.","b":" If emax is in a minimum spanning tree, then its removal must disconnect G","c":"No minimum spanning tree contains emax ","d":" G has a unique minimum spanning tree "},"correctAnswer":"d"},{"question":"2. What is the best case Time Complexity of Kruskal's?","answers":{"a":"O((N-1)log(E)+Elog(E)) ","b":"O((N)log(N)+Elog(E))","c":"O((N)log(E)+Elog(E)) ","d":"Cannot Determine"},"correctAnswer":"a"},{"question":"3. How many iterations of MST are required to run Kruskal's algorithm on a non-cyclic graph ?","answers":{"a":"V ","b":"V-1","c":"E ","d":"E-1"},"correctAnswer":"b"},{"question":"4. What is the minimum and maximum number of MST's possible for a given connected undirected non cyclic graph? ","answers":{"a":"Min : 1, Max: 1 ","b":"Min : 1, Max :N ","c":"Min : N, MAx : N","d":"MIN : 1, Max : E "},"correctAnswer":"a"},{"question":"5.  Which of the following is false about Prim’s algorithm?","answers":{"a":" It is started from an edge ","b":"It constructs MSt in increasing order of their weights ","c":" It never accepts cycles in MST  ","d":"It can be implemented using heaps "},"correctAnswer":"b"}]
+{
+    "version": 2.0,
+    "questions": [
+        {
+            "question": "1. Is Prim's algorithm always better than Kruskal's algorithm?",
+            "answers": {
+                "a": "Yes",
+                "b": "Never",
+                "c": "Depends",
+                "d": "Can\u2019t Say"
+            },
+            "correctAnswer": "c",
+            "explanations": {
+                "c": "When the graph is sparse, Kruskal\u2019s algorithm performs better, whereas when the graph is dense, Prim\u2019s Algorithm performs better."
+            },
+            "difficulty": "beginner"
+        },
+        {
+            "question": "2. Let N be any integer greater than 1. What is the minimum and maximum number of MST's possible for a given connected undirected non cyclic graph?",
+            "answers": {
+                "a": "Min: 1, Max: N",
+                "b": "Min: 1, Max: 1",
+                "c": "Min: N, Max: N",
+                "d": "Min: 1, Max: N/2"
+            },
+            "correctAnswer": "b",
+            "explanations": {
+                "b": "Since the graph is non-cyclic, hence there will exist only one shortest path between any two nodes."
+            },
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "3. Using Kruskal\u2019s algorithm in a non cyclic graph, what is the minimum number of iterations required to produce a MST?(Let V be the number of vertices, E be the number of edges)",
+            "answers": {
+                "a": "V",
+                "b": "V-1",
+                "c": "E-1",
+                "d": "E"
+            },
+            "correctAnswer": "b",
+            "explanations": {
+                "b": "Kruskal\u2019s algorithm picks an edge every time. Hence it will pick V-1 edges to create an MST."
+            },
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "4. The two algorithms: Kruskal\u2019s and Prim\u2019s always produce a unique MST.",
+            "answers": {
+                "a": "True",
+                "b": "False"
+            },
+            "correctAnswer": "b",
+            "explanations": {
+                "b": "If there are equal weighted edges present in the graph, then the MST produced may not be unique. Hence if the algorithm randomizes among these edges, then we can obtain different MST."
+            },
+            "difficulty": "beginner"
+        }
+    ]
+}
+  
