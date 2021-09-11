@@ -1,0 +1,82 @@
+{
+    "version": 2.0,
+    "questions": [
+        {
+            "question": "1. What is incorrect about Kruskal\u2019s algorithm?",
+            "answers": {
+                "a": "Edges in MST cannot form cycles",
+                "b": "Kruskal\u2019s algorithm uses greedy approach",
+                "c": "It makes use of disjoint set data structure",
+                "d": "MST is constructed from decreasing weighted edges"
+            },
+            "correctAnswer": "d",
+            "explanations": {
+                "d": "Minimum spanning tree consists of edges having minimum possible weight. Hence MST is constructed from increasing weighted edges."
+            },
+            "difficulty": "beginner"
+        },
+        {
+            "question": "2. In a graph having V vertices and E edges, what is the smallest possible edge count of a Minimum Spanning Tree?",
+            "answers": {
+                "a": "E-1",
+                "b": "V+1",
+                "c": "V-1",
+                "d": "E"
+            },
+            "correctAnswer": "c",
+            "explanations": {
+                "c": "In a tree of V nodes, V-1 edges are present. Same is applicable for Minimum Spanning Tree."
+            },
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "3. How do we detect whether one edge(with V1 and V2 as vertices on both the ends) is a part of a cycle in the graph?",
+            "answers": {
+                "a": "V1 and V2 belong to different set in union-find",
+                "b": "V1 has smaller value than V2",
+                "c": "V1 and V2 belong to same set in union-find",
+                "d": "V1 has larger value than V2"
+            },
+            "correctAnswer": "c",
+            "explanations": {
+                "a": "If V1 and V2 belong to different set, then edge is not a part of the cycle",
+                "b": "Value of V1 and V2 doesn\u2019t matter when finding a cycle",
+                "c": "Yes, if V1 and V2 belong to same set, then edge is a part of the cycle and hence will not be considered while building a MST",
+                "d": "Value of V1 and V2 doesn\u2019t matter when finding a cycle"
+            },
+            "difficulty": "advanced"
+        },
+        {
+            "question": "4. Which edge gets judged if it should or shouldn't be in MST after n iterations?",
+            "answers": {
+                "a": "Smallest edge",
+                "b": "Largest Edge",
+                "c": "Middlemost Edge in increasing order",
+                "d": "None of the above"
+            },
+            "correctAnswer": "a",
+            "explanations": {
+                "a": "As it is the first edge present in the sorted array of edges, hence it should be a part of MST",
+                "b": "Largest edge may or may not be in MST",
+                "c": "Middlemost edge may or may not be in MST"
+            },
+            "difficulty": "beginner"
+        },
+        {
+            "question": "5. When do we add an edge to MST while running Kruskal's ?",
+            "answers": {
+                "a": "When edge forms a cycle in MST",
+                "b": "When edge doesn\u2019t forms a cycle in MST",
+                "c": "When edge is the next smallest possible edge irrespective of the cycle",
+                "d": "None of the above"
+            },
+            "correctAnswer": "b",
+            "explanations": {
+                "a": "If edge forms a cycle, then it violates the property of the tree",
+                "b": "If edge is smallest and doesn\u2019t forms a cycle, then it is a part of the MST",
+                "c": "Even though the edge is the next smallest possible edge, it may not be added if it forms a cycle"
+            },
+            "difficulty": "intermediate"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "version": 2.0,
+    "questions": [
+        {
+            "question": "1. What is the time complexity of Prim\u2019s Algorithm? (Let V be the number of vertices, E be the number of edges)",
+            "answers": {
+                "a": "O(Vlog(V)+Elog(E))",
+                "b": "O((V+E)log(E))",
+                "c": "O(Elog(V)+Elog(E))",
+                "d": "O((V+E)log(V))"
+            },
+            "correctAnswer": "d",
+            "explanations": {},
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "2. What is the best case time complexity of Prim\u2019s Algorithm? (Let V be the number of vertices, E be the number of edges)",
+            "answers": {
+                "a": "O(V^2)",
+                "b": "Somewhere in between O(V) and O(V^2)",
+                "c": "O(V)",
+                "d": "None of the above"
+            },
+            "correctAnswer": "c",
+            "explanations": {},
+            "difficulty": "advanced"
+        },
+        {
+            "question": "3. Prim\u2019s algorithm is similar to Dijkstra Algorithm",
+            "answers": {
+                "a": "True",
+                "b": "False"
+            },
+            "correctAnswer": "a",
+            "explanations": {
+                "a": "Both algorithms select the shortest edge that leads to a new node. The difference lies in the logic of classifying an edge as shortest in both cases."
+            },
+            "difficulty": "beginner"
+        },
+        {
+            "question": "4. Upon using the adjacency matrix, what is the worst case time complexity of Prim\u2019s Algorithm? (Let V be the number of vertices, E be the number of edges)",
+            "answers": {
+                "a": "O(V^2)",
+                "b": "O(Vlog(V))",
+                "c": "O(Elog(V))",
+                "d": "O(V+E^2)"
+            },
+            "correctAnswer": "a",
+            "explanations": {},
+            "difficulty": "advanced"
+        }
+    ]
+}

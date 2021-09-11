@@ -10,7 +10,7 @@
 #que{
     position: relative;
     font-family:arial;
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
     padding:1vw;
 }
 #legend {
@@ -56,7 +56,7 @@
 
 #ranger {    
     position: relative;
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
     width:40%;
     z-index: 1;
     margin-left:auto;
