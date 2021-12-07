@@ -1,0 +1,60 @@
+{
+    "version": 2.0,
+    "questions": [
+        {
+            "question": "1. Is Prim's algorithm always better than Kruskal's algorithm?",
+            "answers": {
+                "a": "Yes",
+                "b": "Never",
+                "c": "Depends",
+                "d": "Can\u2019t Say"
+            },
+            "correctAnswer": "c",
+            "explanations": {
+                "c": "When the graph is sparse, Kruskal\u2019s algorithm performs better, whereas when the graph is dense, Prim\u2019s Algorithm performs better."
+            },
+            "difficulty": "beginner"
+        },
+        {
+            "question": "2. Let N be any integer greater than 1. What is the minimum and maximum number of MST's possible for a given connected undirected non cyclic graph?",
+            "answers": {
+                "a": "Min: 1, Max: N",
+                "b": "Min: 1, Max: 1",
+                "c": "Min: N, Max: N",
+                "d": "Min: 1, Max: N/2"
+            },
+            "correctAnswer": "b",
+            "explanations": {
+                "b": "Since the graph is non-cyclic, hence there will exist only one shortest path between any two nodes."
+            },
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "3. Using Kruskal\u2019s algorithm in a non cyclic graph, what is the minimum number of iterations required to produce a MST?(Let V be the number of vertices, E be the number of edges)",
+            "answers": {
+                "a": "V",
+                "b": "V-1",
+                "c": "E-1",
+                "d": "E"
+            },
+            "correctAnswer": "b",
+            "explanations": {
+                "b": "Kruskal\u2019s algorithm picks an edge every time. Hence it will pick V-1 edges to create an MST."
+            },
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "4. The two algorithms: Kruskal\u2019s and Prim\u2019s always produce a unique MST.",
+            "answers": {
+                "a": "True",
+                "b": "False"
+            },
+            "correctAnswer": "b",
+            "explanations": {
+                "b": "If there are equal weighted edges present in the graph, then the MST produced may not be unique. Hence if the algorithm randomizes among these edges, then we can obtain different MST."
+            },
+            "difficulty": "beginner"
+        }
+    ]
+}
+  
