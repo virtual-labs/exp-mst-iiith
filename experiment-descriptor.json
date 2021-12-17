@@ -30,7 +30,7 @@
     },
     {
       "unit-type": "task",
-      "label": "Pre Test Quiz",
+      "label": "Pretest",
       "content-type": "assesment",
       "source": "pretest.json",
       "target": "pretest.html"
@@ -229,7 +229,7 @@
 
     {
       "unit-type": "task",
-      "label": "Post Test Quiz",
+      "label": "Posttest",
       "content-type": "assesment",
       "source": "posttest.json",
       "target": "posttest.html"
