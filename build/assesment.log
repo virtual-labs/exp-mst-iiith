@@ -1,0 +1,90 @@
+=/pretest.json
+{
+  _: [],
+  f: [
+    '/Users/joey/Documents/VirtualLabs/Data-Structures-2/exp-mst-iiith/experiment/pretest.json'
+  ],
+  files: [
+    '/Users/joey/Documents/VirtualLabs/Data-Structures-2/exp-mst-iiith/experiment/pretest.json'
+  ],
+  c: 'assessment',
+  contentTypes: 'assessment',
+  'content-types': 'assessment',
+  '$0': 'validate'
+}
+Validated true
+=/kruskals-algorithm/kruskals-quiz.json
+{
+  _: [],
+  f: [
+    '/Users/joey/Documents/VirtualLabs/Data-Structures-2/exp-mst-iiith/experiment/kruskals-algorithm/kruskals-quiz.json'
+  ],
+  files: [
+    '/Users/joey/Documents/VirtualLabs/Data-Structures-2/exp-mst-iiith/experiment/kruskals-algorithm/kruskals-quiz.json'
+  ],
+  c: 'assessment',
+  contentTypes: 'assessment',
+  'content-types': 'assessment',
+  '$0': 'validate'
+}
+Validated true
+=/analysis-of-kruskals/analysis-quiz-in-kruskals.json
+{
+  _: [],
+  f: [
+    '/Users/joey/Documents/VirtualLabs/Data-Structures-2/exp-mst-iiith/experiment/analysis-of-kruskals/analysis-quiz-in-kruskals.json'
+  ],
+  files: [
+    '/Users/joey/Documents/VirtualLabs/Data-Structures-2/exp-mst-iiith/experiment/analysis-of-kruskals/analysis-quiz-in-kruskals.json'
+  ],
+  c: 'assessment',
+  contentTypes: 'assessment',
+  'content-types': 'assessment',
+  '$0': 'validate'
+}
+Validated true
+=/prims-algorithm/prims-quiz.json
+{
+  _: [],
+  f: [
+    '/Users/joey/Documents/VirtualLabs/Data-Structures-2/exp-mst-iiith/experiment/prims-algorithm/prims-quiz.json'
+  ],
+  files: [
+    '/Users/joey/Documents/VirtualLabs/Data-Structures-2/exp-mst-iiith/experiment/prims-algorithm/prims-quiz.json'
+  ],
+  c: 'assessment',
+  contentTypes: 'assessment',
+  'content-types': 'assessment',
+  '$0': 'validate'
+}
+Validated true
+=/analysis-of-prims/analysis-quiz-of-prims.json
+{
+  _: [],
+  f: [
+    '/Users/joey/Documents/VirtualLabs/Data-Structures-2/exp-mst-iiith/experiment/analysis-of-prims/analysis-quiz-of-prims.json'
+  ],
+  files: [
+    '/Users/joey/Documents/VirtualLabs/Data-Structures-2/exp-mst-iiith/experiment/analysis-of-prims/analysis-quiz-of-prims.json'
+  ],
+  c: 'assessment',
+  contentTypes: 'assessment',
+  'content-types': 'assessment',
+  '$0': 'validate'
+}
+Validated true
+=/posttest.json
+{
+  _: [],
+  f: [
+    '/Users/joey/Documents/VirtualLabs/Data-Structures-2/exp-mst-iiith/experiment/posttest.json'
+  ],
+  files: [
+    '/Users/joey/Documents/VirtualLabs/Data-Structures-2/exp-mst-iiith/experiment/posttest.json'
+  ],
+  c: 'assessment',
+  contentTypes: 'assessment',
+  'content-types': 'assessment',
+  '$0': 'validate'
+}
+Validated true

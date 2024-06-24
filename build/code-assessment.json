@@ -21,8 +21,8 @@
                 ["B", "D", 4],
                 ["C", "E", 5]
             ],
-            "inputs description": "Input consists of a connected undirected graph represented by its vertices - inp1 and adjacency list of weighted edges - inp2. Each key in the adjacency list represents a vertex, and its value is another object where keys are adjacent vertices and values are edge weights (e.g., {\"A\": {\"B\": 1}, \"B\": {\"A\": 1}}). Note that this is an undirected graph, so each edge is bidirectional.",
-            "expected description": "An array of arrays, where each inner array represents an edge in the Minimum Spanning Tree (MST), along with its weight (e.g., [\"A\", \"B\", 1]). Edges are sorted by weight in ascending order. For each edge, the vertices should be listed in alphabetical order."
+            "inputs description": "Input consists of a connected graph represented by its vertices and adjacency list of weighted edges. Each key in the 'edges' object represents a vertex, and its value is another object where keys are adjacent vertices and values are edge weights e.g. {\"A\": {\"B\": 1}, \"B\": {\"A\": 1}}.",
+            "expected description": "An array of arrays, where each inner array represents an edge in the Minimum Spanning Tree (MST), along with its weight e.g. [\"A\", \"B\", 1]. Edges are sorted by weight in ascending order."
         },
         {
             "problem name": "Prim's Algorithm",
@@ -45,7 +45,7 @@
                 ["C", "D", 4]
             ],
             "inputs description": "Input consists of a connected graph represented by its vertices and adjacency list of weighted edges. Each key in the 'edges' object represents a vertex, and its value is another object where keys are adjacent vertices and values are edge weights e.g. {\"A\": {\"B\": 1}, \"B\": {\"A\": 1}}.",
-            "expected description": "An array of arrays, where each inner array represents an edge in the Minimum Spanning Tree (MST), along with its weight e.g. [\"A\", \"B\", 1]g. Edges are sorted by weight in ascending order. For each edge, the vertices should be listed in alphabetical order."
+            "expected description": "An array of arrays, where each inner array represents an edge in the Minimum Spanning Tree (MST), along with its weight e.g. [\"A\", \"B\", 1]g. Edges are sorted by weight in ascending order."
         }
     ]
 }
