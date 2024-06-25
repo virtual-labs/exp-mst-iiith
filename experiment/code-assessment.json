@@ -1,0 +1,51 @@
+{
+    "version": 1,
+    "experiment name": "Minimum Spanning Tree",
+    "problems": [
+        {
+            "problem name": "Kruskal's Algorithm",
+            "description": "Implement Kruskal's algorithm to generate a Minimum Spanning Tree (MST) for the given connected undirected graph.",
+            "inputs": [
+                ["A", "B", "C", "D", "E"],
+                {
+                    "A": {"B": 1, "C": 2},
+                    "B": {"A": 1, "C": 3, "D": 4},
+                    "C": {"A": 2, "B": 3, "E": 5},
+                    "D": {"B": 4, "E": 6},
+                    "E": {"C": 5, "D": 6}
+                }
+            ],
+            "expected": [
+                ["A", "B", 1],
+                ["A", "C", 2],
+                ["B", "D", 4],
+                ["C", "E", 5]
+            ],
+            "inputs description": "Input consists of a connected undirected graph represented by its vertices - inp1 and adjacency list of weighted edges - inp2. Each key in the adjacency list represents a vertex, and its value is another object where keys are adjacent vertices and values are edge weights. Note that this is an undirected graph, so each edge is bidirectional.",
+            "expected description": "An array of arrays, where each inner array represents an edge in the Minimum Spanning Tree (MST), along with its weight (e.g., [\"A\", \"B\", 1]). Edges are sorted by weight in ascending order. For each edge, the vertices should be listed in alphabetical order."
+        },
+        {
+            "problem name": "Prim's Algorithm",
+            "description": "Implement Prim's algorithm to generate a Minimum Spanning Tree (MST) for the given connected undirected graph.",
+            "inputs": [
+                ["A", "B", "C", "D", "E"],
+                {
+                    "A": {"C": 1, "B": 2},
+                    "B": {"A": 2, "D": 3, "C": 5},
+                    "C": {"A": 1, "B": 5, "D": 4},
+                    "D": {"B": 3, "C": 4},
+                    "E": {}
+                }
+                
+            ],
+            "expected": [
+                ["A", "C", 1],
+                ["A", "B", 2],
+                ["B", "D", 3],
+                ["C", "D", 4]
+            ],
+            "inputs description": "Input consists of a connected undirected graph represented by its vertices - inp1 and adjacency list of weighted edges - inp2. Each key in the adjacency list represents a vertex, and its value is another object where keys are adjacent vertices and values are edge weights. Note that this is an undirected graph, so each edge is bidirectional.",
+            "expected description": "An array of arrays, where each inner array represents an edge in the Minimum Spanning Tree (MST), along with its weight (e.g., [\"A\", \"B\", 1]). Edges are sorted by weight in ascending order. For each edge, the vertices should be listed in alphabetical order."
+        }
+    ]
+}
