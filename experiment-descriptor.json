@@ -2,6 +2,13 @@
   "unit-type": "lu",
   "label": "Minimum Spanning Trees",
   "basedir": ".",
+  "code-assessment": {
+    "include": true,
+    "languages": [
+      "javascript"
+    ],
+    "position": 10
+  },
   "units": [
     {
       "unit-type": "aim"
@@ -13,8 +20,7 @@
       "source": "overview.md",
       "target": "overview.html"
     },
-	
-{
+    {
       "unit-type": "task",
       "label": "Recap",
       "content-type": "video",
@@ -35,7 +41,7 @@
       "source": "pretest.json",
       "target": "pretest.html"
     },
-	{
+    {
       "unit-type": "lu",
       "label": "MST",
       "basedir": "mst",
@@ -50,8 +56,8 @@
           "source": "overview.md",
           "target": "overview.html"
         }
-	]
-     },
+      ]
+    },
     {
       "unit-type": "lu",
       "label": "Kruskals Algorithm",
@@ -60,8 +66,7 @@
         {
           "unit-type": "aim"
         },
-        
-	{
+        {
           "unit-type": "task",
           "label": "Concept",
           "content-type": "video",
@@ -75,7 +80,6 @@
           "source": "demo-of-kruskals-algorithm.md",
           "target": "demo-of-kruskals-algorithm.html"
         },
-        
         {
           "unit-type": "task",
           "label": " Demo",
@@ -83,33 +87,30 @@
           "source": "simulation/mst_kruskal_demo.html",
           "target": "mst_kruskal_demo.html"
         },
-	{
+        {
           "unit-type": "task",
           "label": " Practice",
           "content-type": "simulation",
           "source": "simulation/mst_kruskal_practice.html",
           "target": "mst_kruskal_practice.html"
         },
-	{
+        {
           "unit-type": "task",
           "label": " Exercise",
           "content-type": "simulation",
           "source": "simulation/mst_kruskal_exercise.html",
           "target": "mst_kruskal_exercise.html"
         },
-        
-	{
-         "unit-type": "task",
-         "label": " Quiz",
-         "content-type": "assesment",
-         "source": "kruskals-quiz.json",
-         "target": "kruskals-quiz.html"
-       }
-      
+        {
+          "unit-type": "task",
+          "label": " Quiz",
+          "content-type": "assesment",
+          "source": "kruskals-quiz.json",
+          "target": "kruskals-quiz.html"
+        }
       ]
     },
-   
-        {
+    {
       "unit-type": "lu",
       "label": "Analysis of Kruskals",
       "basedir": "analysis-of-kruskals",
@@ -117,7 +118,6 @@
         {
           "unit-type": "aim"
         },
-	
         {
           "unit-type": "task",
           "label": "Time and Space Complexity ",
@@ -125,7 +125,6 @@
           "source": "time-and-space-complexity-of-kruskals.md",
           "target": "time-and-space-complexity-of-kruskals.html"
         },
-        
         {
           "unit-type": "task",
           "label": " Quiz ",
@@ -135,7 +134,6 @@
         }
       ]
     },
-
     {
       "unit-type": "lu",
       "label": "Prims Algorithm",
@@ -144,8 +142,7 @@
         {
           "unit-type": "aim"
         },
-        
-	{
+        {
           "unit-type": "task",
           "label": "Concept ",
           "content-type": "video",
@@ -159,7 +156,6 @@
           "source": "demo-of-prims-algorithm.md",
           "target": "demo-of-prims-algorithm.html"
         },
-        	
         {
           "unit-type": "task",
           "label": " Demo  ",
@@ -167,33 +163,30 @@
           "source": "simulation/mst_prims_demo.html",
           "target": "mst_prims_demo.html"
         },
-	{
+        {
           "unit-type": "task",
           "label": " Practice",
           "content-type": "simulation",
           "source": "simulation/mst_prims_practice.html",
           "target": "mst_prims_practice.html"
         },
-	{
+        {
           "unit-type": "task",
           "label": " Exercise",
           "content-type": "simulation",
           "source": "simulation/mst_prims_exercise.html",
           "target": "mst_prims_exercise.html"
         },
-        
-	{
-         "unit-type": "task",
-         "label": " Quiz",
-         "content-type": "assesment",
-         "source": "prims-quiz.json",
-         "target": "prims-quiz.html"
-       }
-      
+        {
+          "unit-type": "task",
+          "label": " Quiz",
+          "content-type": "assesment",
+          "source": "prims-quiz.json",
+          "target": "prims-quiz.html"
+        }
       ]
     },
-   
-        {
+    {
       "unit-type": "lu",
       "label": "Analysis of Prims",
       "basedir": "analysis-of-prims",
@@ -201,7 +194,6 @@
         {
           "unit-type": "aim"
         },
-	
         {
           "unit-type": "task",
           "label": "Time and Space Complexity  ",
@@ -225,8 +217,6 @@
         }
       ]
     },
-
-
     {
       "unit-type": "task",
       "label": "Posttest",
@@ -234,7 +224,6 @@
       "source": "posttest.json",
       "target": "posttest.html"
     },
-       
     {
       "unit-type": "task",
       "label": "Further Readings/References",
