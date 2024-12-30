@@ -1,10 +1,12 @@
 ### How can we find MST using Prim's?
 In Prim's algorithm, we take the fastest possible approach to create MST.
 
-   - We first choose a random node of graph and add it to set of nodes which include in MST so far.
-   - Add the edge weights of edges from newly added node in MST to its adjacent nodes which are not in MST so far.
-   - Add the smallest weighted edge from Min-Heap into MST and include the respective node into MST.
-   - We keep performing the above steps over the array again and again till all the edges checked.
+1. We first determine an arbitrary vertex as the starting vertex of the MST.
+2. Follow steps 3 to 5 till there are vertices that are not included in the MST (known as fringe vertex).
+3. Find edges connecting any tree vertex with the fringe vertices.
+4. Find the minimum among these edges.
+5. Add the chosen edge to the MST if it does not form any cycle.
+6. When all the vertices are included in the tree, the tree we have is the required MST.
 
 ### Which edge should we add edge to MST?
 <img src="images/primwhen.png"/>
