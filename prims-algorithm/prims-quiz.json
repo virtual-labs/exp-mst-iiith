@@ -1,0 +1,63 @@
+{
+    "version": 2.0,
+    "questions": [
+        {
+            "question": "1. When do we add a vertex, adjacent to a newly added vertex to MST, into Min-heap?",
+            "answers": {
+                "a": "If it is present in Min-heap",
+                "b": "If it is neither in MST nor in Min-heap.",
+                "c": "If it is present in MST",
+                "d": "If it is present in both Min-heap and MST"
+            },
+            "correctAnswer": "b",
+            "explanations": {
+                "a": "If a vertex is present in MST, then adding it again would cause the algorithm to get stuck in a loop.",
+                "c": "We add the vertex which is still left to become a part of MST, and hence is not present in MST",
+                "d": "We don\u2019t add a vertex to MST if it is present in both Min-heap and MST to avoid redundancy, and loop."
+            },
+            "difficulty": "beginner"
+        },
+        {
+            "question": "2. How many edges are present in MST after k iterations?",
+            "answers": {
+                "a": "Exactly K",
+                "b": "Less than equal to K",
+                "c": "Greater than equal to K",
+                "d": "Can\u2019t Say"
+            },
+            "correctAnswer": "a",
+            "explanations": {
+                "a": "Prim\u2019s algorithm starts from a vertex, and after each iteration, it adds a new vertex and thus a new edge. Thus after k iterations, k edges will be present in MST."
+            },
+            "difficulty": "beginner"
+        },
+        {
+            "question": "3. For dense graphs, which data structure can be used to implement Prim\u2019s Algorithm?",
+            "answers": {
+                "a": "Fibonacci Heap",
+                "b": "Stack",
+                "c": "D-Heap",
+                "d": "Linked List"
+            },
+            "correctAnswer": "c",
+            "explanations": {
+                "c": "Using D-Heap or D-ary Heap, Prim\u2019s algorithm can be executed in linear time."
+            },
+            "difficulty": "advanced"
+        },
+        {
+            "question": "4. Select a false statement.",
+            "answers": {
+                "a": "Heap can be used to implement Prim\u2019s Algorithm",
+                "b": "Prim\u2019s algorithm spans from one vertex to another",
+                "c": "Prim\u2019s algorithm is an example of greedy algorithm",
+                "d": "Cycles in MST can get accepted by Prim\u2019s Algorithm"
+            },
+            "correctAnswer": "d",
+            "explanations": {
+                "d": "If cycles are present in a MST, then it is not a tree. Prim\u2019s Algorithm works in an efficient way such that it never accepts a cycle."
+            },
+            "difficulty": "beginner"
+        }
+    ]
+}
