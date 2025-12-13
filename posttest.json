@@ -1,0 +1,72 @@
+{
+    "version": 2.0,
+    "questions": [
+        {
+            "question": "1. Is Prim's algorithm always better than Kruskal's algorithm?",
+            "answers": {
+                "a": "Yes",
+                "b": "Never",
+                "c": "Depends",
+                "d": "Can\u2019t Say"
+            },
+            "correctAnswer": "c",
+            "explanations": {
+                "a": "Incorrect. Prim's is not always better than Kruskal's; it depends on graph density.",
+                "b": "Incorrect. Prim's can be better in certain scenarios like dense graphs.",
+                "c": "Correct. When the graph is sparse, Kruskal’s algorithm performs better, whereas when the graph is dense, Prim’s Algorithm performs better.",
+                "d": "Incorrect. We can determine which algorithm is better based on graph characteristics."
+            },
+            "difficulty": "beginner"
+        },
+        {
+            "question": "2. Let N be any integer greater than 1. What is the minimum and maximum number of MST's possible for a given connected undirected non cyclic graph?",
+            "answers": {
+                "a": "Min: 1, Max: N",
+                "b": "Min: 1, Max: 1",
+                "c": "Min: N, Max: N",
+                "d": "Min: 1, Max: N/2"
+            },
+            "correctAnswer": "b",
+            "explanations": {
+                "a": "Incorrect. In a non-cyclic connected graph (tree), there is exactly one MST.",
+                "b": "Correct. Since the graph is non-cyclic, hence there will exist only one shortest path between any two nodes.",
+                "c": "Incorrect. The number of MSTs doesn't scale linearly with N.",
+                "d": "Incorrect. In a non-cyclic graph, there is exactly one MST."
+            },
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "3. Using Kruskal\u2019s algorithm in a non cyclic graph, what is the minimum number of iterations required to produce a MST?(Let V be the number of vertices, E be the number of edges)",
+            "answers": {
+                "a": "V",
+                "b": "V-1",
+                "c": "E-1",
+                "d": "E"
+            },
+            "correctAnswer": "b",
+            "explanations": {
+                "a": "Incorrect. V iterations would create a cycle since we only need V-1 edges.",
+                "b": "Correct. Kruskal’s algorithm picks an edge every time. Hence it will pick V-1 edges to create an MST.",
+                "c": "Incorrect. E-1 edges would be too many for an MST.",
+                "d": "Incorrect. E edges would create cycles in the MST."
+            },
+            "difficulty": "intermediate"
+        },
+        {
+            "question": "4. The two algorithms: Kruskal\u2019s and Prim\u2019s always produce a unique MST.",
+            "answers": {
+                "a": "True",
+                "b": "False"
+            },
+            "correctAnswer": "b",
+            "explanations": {
+                "a": "Incorrect. When equal weighted edges exist, different MSTs can be produced.",
+                "b": "Correct. If there are equal weighted edges present in the graph, then the MST produced may not be unique. Hence if the algorithm randomizes among these edges, then we can obtain different MST.",
+                "c": "Incorrect. Both algorithms can produce the same MST under certain conditions.",
+                "d": "Incorrect. Uniqueness depends on whether equal weighted edges exist."
+            },
+            "difficulty": "beginner"
+        }
+    ]
+}
+  
