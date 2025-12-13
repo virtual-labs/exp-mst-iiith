@@ -10,7 +10,12 @@
                 "d": "O((V+E)log(V))"
             },
             "correctAnswer": "d",
-            "explanations": {},
+            "explanations": {
+                "a": "Incorrect. This doesn't represent the correct time complexity formula for Prim's algorithm.",
+                "b": "Incorrect. This doesn't represent the correct time complexity formula for Prim's algorithm.",
+                "c": "Incorrect. This doesn't represent the correct time complexity formula for Prim's algorithm.",
+                "d": "Correct. The time complexity of Prim’s algorithm is O((V+E)log(V)) when using a binary heap, where V is the number of vertices and E is the number of edges."
+            },
             "difficulty": "intermediate"
         },
         {
@@ -22,7 +27,12 @@
                 "d": "None of the above"
             },
             "correctAnswer": "c",
-            "explanations": {},
+            "explanations": {
+                "a": "Incorrect. O(V^2) is the worst case, not the best case time complexity.",
+                "b": "Incorrect. The best case is more specific than this range.",
+                "c": "Correct. In the best case scenario, Prim’s algorithm achieves O(V) time complexity.",
+                "d": "Incorrect. O(V) is the correct best case time complexity."
+            },
             "difficulty": "advanced"
         },
         {
@@ -33,7 +43,8 @@
             },
             "correctAnswer": "a",
             "explanations": {
-                "a": "Both algorithms select the shortest edge that leads to a new node. The difference lies in the logic of classifying an edge as shortest in both cases."
+                "a": "Correct. Both algorithms select the shortest edge that leads to a new node. The difference lies in the logic of classifying an edge as shortest in both cases.",
+                "b": "Incorrect. Prim’s algorithm is indeed similar to Dijkstra's Algorithm in its approach."
             },
             "difficulty": "beginner"
         },
@@ -46,7 +57,12 @@
                 "d": "O(V+E^2)"
             },
             "correctAnswer": "a",
-            "explanations": {},
+            "explanations": {
+                "a": "Correct. When using an adjacency matrix representation, the worst case time complexity of Prim’s algorithm is O(V^2).",
+                "b": "Incorrect. O(Vlog(V)) is achieved with more efficient data structures like heaps.",
+                "c": "Incorrect. O(Elog(V)) doesn't represent the complexity with adjacency matrix.",
+                "d": "Incorrect. This doesn't represent the correct time complexity."
+            },
             "difficulty": "advanced"
         }
     ]

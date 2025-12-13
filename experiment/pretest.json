@@ -11,9 +11,10 @@
             },
             "correctAnswer": "d",
             "explanations": {
-                "a": "Elements in an array may or may not be unique.",
-                "b": "Access time in an array is constant, not linear.",
-                "c": "Array always stores its elements in contiguous memory locations."
+                "a": "Incorrect. Elements in an array may or may not be unique.",
+                "b": "Incorrect. Access time in an array is constant, not linear.",
+                "c": "Incorrect. Array always stores its elements in contiguous memory locations.",
+                "d": "Correct. An array is a data structure containing elements of similar types stored in contiguous memory locations."
             },
             "difficulty": "beginner"
         },
@@ -27,9 +28,10 @@
             },
             "correctAnswer": "b",
             "explanations": {
-                "a": "Incorrect, Y cannot be more efficient as X is a better choice",
-                "b": "Since X is asymptotically more efficient than Y, hence X will perform better in case of large inputs",
-                "c": "Since X is getting preferred, hence X and Y cannot be equivalent"
+                "a": "Incorrect. Y cannot be more efficient as X is a better choice.",
+                "b": "Correct. Since X is asymptotically more efficient than Y, hence X will perform better in case of large inputs.",
+                "c": "Incorrect. Since X is getting preferred, hence X and Y cannot be equivalent.",
+                "d": "Incorrect. X is asymptotically more efficient than Y is the correct answer."
             },
             "difficulty": "intermediate"
         },
@@ -43,9 +45,10 @@
             },
             "correctAnswer": "b",
             "explanations": {
-                "a": "Time complexity of bogo sort is O(n*n!) making it one of the worst sorting algorithm",
-                "b": "Time complexity of merge sort in O(n log n) which is one of the best",
-                "c": "Time complexity of cocktail sort is O(n^2) which is slower than the fastest one"
+                "a": "Incorrect. Time complexity of bogo sort is O(n*n!) making it one of the worst sorting algorithm.",
+                "b": "Correct. Time complexity of merge sort in O(n log n) which is one of the best.",
+                "c": "Incorrect. Time complexity of cocktail sort is O(n^2) which is slower than the fastest one.",
+                "d": "Incorrect. Only merge sort is one of the fastest sorting algorithms."
             },
             "difficulty": "beginner"
         },
@@ -59,10 +62,10 @@
             },
             "correctAnswer": "c",
             "explanations": {
-                "a": "Stack stores data in LIFO order, but does not identifies disjoint sets",
-                "b": "This is not a data structure",
-                "c": "Union Find, also known as Merge Find, stores the disjoint sets, and is helpful for identifying them",
-                "d": "Heap does not identifies disjoint sets"
+                "a": "Incorrect. Stack stores data in LIFO order, but does not identifies disjoint sets.",
+                "b": "Incorrect. This is not a data structure.",
+                "c": "Correct. Union Find, also known as Merge Find, stores the disjoint sets, and is helpful for identifying them.",
+                "d": "Incorrect. Heap does not identifies disjoint sets."
             },
             "difficulty": "advanced"
         },
@@ -76,7 +79,10 @@
             },
             "correctAnswer": "b",
             "explanations": {
-                "b": "A tree is a special case of graph with no cycles"
+                "a": "Incorrect. Trees cannot have cycles, which distinguishes them from general graphs.",
+                "b": "Correct. A tree is a special case of graph with no cycles.",
+                "c": "Incorrect. Trees are defined as acyclic connected graphs.",
+                "d": "Incorrect. Graphs can have cycles, but trees cannot."
             },
             "difficulty": "intermediate"
         }
