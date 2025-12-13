@@ -11,7 +11,10 @@
             },
             "correctAnswer": "d",
             "explanations": {
-                "d": "Minimum spanning tree consists of edges having minimum possible weight. Hence MST is constructed from increasing weighted edges."
+                "a": "Incorrect. Edges in MST cannot form cycles is a correct property of Kruskal's algorithm.",
+                "b": "Incorrect. Kruskal’s algorithm uses greedy approach is a correct statement.",
+                "c": "Incorrect. It makes use of disjoint set data structure is a correct statement.",
+                "d": "Correct. Minimum spanning tree consists of edges having minimum possible weight. Hence MST is constructed from increasing weighted edges."
             },
             "difficulty": "beginner"
         },
@@ -25,7 +28,10 @@
             },
             "correctAnswer": "c",
             "explanations": {
-                "c": "In a tree of V nodes, V-1 edges are present. Same is applicable for Minimum Spanning Tree."
+                "a": "Incorrect. E-1 is not the correct edge count for an MST.",
+                "b": "Incorrect. V+1 edges would create cycles in the MST.",
+                "c": "Correct. In a tree of V nodes, V-1 edges are present. Same is applicable for Minimum Spanning Tree.",
+                "d": "Incorrect. E edges is the total number of edges in the graph, not in the MST."
             },
             "difficulty": "intermediate"
         },
@@ -39,10 +45,10 @@
             },
             "correctAnswer": "c",
             "explanations": {
-                "a": "If V1 and V2 belong to different set, then edge is not a part of the cycle",
-                "b": "Value of V1 and V2 doesn\u2019t matter when finding a cycle",
-                "c": "Yes, if V1 and V2 belong to same set, then edge is a part of the cycle and hence will not be considered while building a MST",
-                "d": "Value of V1 and V2 doesn\u2019t matter when finding a cycle"
+                "a": "Incorrect. If V1 and V2 belong to different set, then edge is not a part of the cycle.",
+                "b": "Incorrect. Value of V1 and V2 doesn’t matter when finding a cycle.",
+                "c": "Correct. Yes, if V1 and V2 belong to same set, then edge is a part of the cycle and hence will not be considered while building a MST.",
+                "d": "Incorrect. Value of V1 and V2 doesn’t matter when finding a cycle."
             },
             "difficulty": "advanced"
         },
@@ -56,9 +62,10 @@
             },
             "correctAnswer": "a",
             "explanations": {
-                "a": "As it is the first edge present in the sorted array of edges, hence it should be a part of MST",
-                "b": "Largest edge may or may not be in MST",
-                "c": "Middlemost edge may or may not be in MST"
+                "a": "Correct. As it is the first edge present in the sorted array of edges, hence it should be a part of MST.",
+                "b": "Incorrect. Largest edge may or may not be in MST.",
+                "c": "Incorrect. Middlemost edge may or may not be in MST.",
+                "d": "Incorrect. The smallest edge is the correct answer."
             },
             "difficulty": "beginner"
         },
@@ -72,9 +79,10 @@
             },
             "correctAnswer": "b",
             "explanations": {
-                "a": "If edge forms a cycle, then it violates the property of the tree",
-                "b": "If edge is smallest and doesn\u2019t forms a cycle, then it is a part of the MST",
-                "c": "Even though the edge is the next smallest possible edge, it may not be added if it forms a cycle"
+                "a": "Incorrect. If edge forms a cycle, then it violates the property of the tree.",
+                "b": "Correct. If edge is smallest and doesn’t forms a cycle, then it is a part of the MST.",
+                "c": "Incorrect. Even though the edge is the next smallest possible edge, it may not be added if it forms a cycle.",
+                "d": "Incorrect. We add an edge when it doesn't form a cycle is the correct answer."
             },
             "difficulty": "intermediate"
         }

@@ -4,7 +4,7 @@
     "problems": [
         {
             "problem name": "Kruskal's Algorithm",
-            "description": "Implement Kruskal's algorithm to generate a Minimum Spanning Tree (MST) for the given connected undirected graph.",
+            "description": "Implement Kruskal's algorithm to construct a Minimum Spanning Tree (MST) for a connected undirected weighted graph. Kruskal's algorithm uses a greedy edge-selection approach: sort all edges by weight in ascending order, then iterate through sorted edges and add each edge to the MST if it doesn't create a cycle (use Union-Find data structure to detect cycles). Continue until you have added exactly (V-1) edges where V is the number of vertices. Example: For graph with vertices ['A','B','C','D','E'] and edges A-B:1, A-C:2, B-C:3, B-D:4, C-E:5, D-E:6, the MST includes edges [['A','B',1], ['A','C',2], ['B','D',4], ['C','E',5]] with total weight 12. Only JavaScript is allowed.",
             "inputs": [
                 ["A", "B", "C", "D", "E"],
                 {
@@ -27,7 +27,7 @@
         },
         {
             "problem name": "Prim's Algorithm",
-            "description": "Implement Prim's algorithm to generate a Minimum Spanning Tree (MST) for the given connected undirected graph.",
+            "description": "Implement Prim's algorithm to construct a Minimum Spanning Tree (MST) for a connected undirected weighted graph. Prim's algorithm uses a greedy vertex-selection approach: start from an arbitrary vertex, maintain a priority queue of edges connecting the growing MST to remaining vertices, and repeatedly add the minimum-weight edge that connects a new vertex to the MST without creating a cycle. Continue until all vertices are included in the MST. Example: For graph with vertices ['A','B','C','D'] and edges A-C:1, A-B:2, B-D:3, B-C:5, C-D:4, starting from 'A' produces MST with edges [['A','C',1], ['A','B',2], ['B','D',3]] with total weight 6. Only JavaScript is allowed.",
             "inputs": [
                 ["A", "B", "C", "D"],
                 {

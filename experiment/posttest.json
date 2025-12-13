@@ -11,7 +11,10 @@
             },
             "correctAnswer": "c",
             "explanations": {
-                "c": "When the graph is sparse, Kruskal\u2019s algorithm performs better, whereas when the graph is dense, Prim\u2019s Algorithm performs better."
+                "a": "Incorrect. Prim's is not always better than Kruskal's; it depends on graph density.",
+                "b": "Incorrect. Prim's can be better in certain scenarios like dense graphs.",
+                "c": "Correct. When the graph is sparse, Kruskal’s algorithm performs better, whereas when the graph is dense, Prim’s Algorithm performs better.",
+                "d": "Incorrect. We can determine which algorithm is better based on graph characteristics."
             },
             "difficulty": "beginner"
         },
@@ -25,7 +28,10 @@
             },
             "correctAnswer": "b",
             "explanations": {
-                "b": "Since the graph is non-cyclic, hence there will exist only one shortest path between any two nodes."
+                "a": "Incorrect. In a non-cyclic connected graph (tree), there is exactly one MST.",
+                "b": "Correct. Since the graph is non-cyclic, hence there will exist only one shortest path between any two nodes.",
+                "c": "Incorrect. The number of MSTs doesn't scale linearly with N.",
+                "d": "Incorrect. In a non-cyclic graph, there is exactly one MST."
             },
             "difficulty": "intermediate"
         },
@@ -39,7 +45,10 @@
             },
             "correctAnswer": "b",
             "explanations": {
-                "b": "Kruskal\u2019s algorithm picks an edge every time. Hence it will pick V-1 edges to create an MST."
+                "a": "Incorrect. V iterations would create a cycle since we only need V-1 edges.",
+                "b": "Correct. Kruskal’s algorithm picks an edge every time. Hence it will pick V-1 edges to create an MST.",
+                "c": "Incorrect. E-1 edges would be too many for an MST.",
+                "d": "Incorrect. E edges would create cycles in the MST."
             },
             "difficulty": "intermediate"
         },
@@ -51,7 +60,10 @@
             },
             "correctAnswer": "b",
             "explanations": {
-                "b": "If there are equal weighted edges present in the graph, then the MST produced may not be unique. Hence if the algorithm randomizes among these edges, then we can obtain different MST."
+                "a": "Incorrect. When equal weighted edges exist, different MSTs can be produced.",
+                "b": "Correct. If there are equal weighted edges present in the graph, then the MST produced may not be unique. Hence if the algorithm randomizes among these edges, then we can obtain different MST.",
+                "c": "Incorrect. Both algorithms can produce the same MST under certain conditions.",
+                "d": "Incorrect. Uniqueness depends on whether equal weighted edges exist."
             },
             "difficulty": "beginner"
         }
