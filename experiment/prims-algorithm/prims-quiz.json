@@ -11,9 +11,10 @@
             },
             "correctAnswer": "b",
             "explanations": {
-                "a": "If a vertex is present in MST, then adding it again would cause the algorithm to get stuck in a loop.",
-                "c": "We add the vertex which is still left to become a part of MST, and hence is not present in MST",
-                "d": "We don\u2019t add a vertex to MST if it is present in both Min-heap and MST to avoid redundancy, and loop."
+                "a": "Incorrect. If a vertex is present in MST, then adding it again would cause the algorithm to get stuck in a loop.",
+                "b": "Correct. We add the vertex which is still left to become a part of MST, and hence is not present in MST.",
+                "c": "Incorrect. Adding a vertex already in MST would violate the tree property.",
+                "d": "Incorrect. We don’t add a vertex to MST if it is present in both Min-heap and MST to avoid redundancy, and loop."
             },
             "difficulty": "beginner"
         },
@@ -27,7 +28,10 @@
             },
             "correctAnswer": "a",
             "explanations": {
-                "a": "Prim\u2019s algorithm starts from a vertex, and after each iteration, it adds a new vertex and thus a new edge. Thus after k iterations, k edges will be present in MST."
+                "a": "Correct. Prim’s algorithm starts from a vertex, and after each iteration, it adds a new vertex and thus a new edge. Thus after k iterations, k edges will be present in MST.",
+                "b": "Incorrect. The number of edges is exactly k, not less than or equal to k.",
+                "c": "Incorrect. The number of edges is exactly k, not greater than or equal to k.",
+                "d": "Incorrect. We can determine that exactly k edges will be present after k iterations."
             },
             "difficulty": "beginner"
         },
@@ -41,7 +45,10 @@
             },
             "correctAnswer": "c",
             "explanations": {
-                "c": "Using D-Heap or D-ary Heap, Prim\u2019s algorithm can be executed in linear time."
+                "a": "Incorrect. Fibonacci Heap is more suitable for sparse graphs, not dense graphs.",
+                "b": "Incorrect. Stack is not suitable for implementing Prim's algorithm.",
+                "c": "Correct. Using D-Heap or D-ary Heap, Prim’s algorithm can be executed in linear time for dense graphs.",
+                "d": "Incorrect. Linked List is not an efficient data structure for Prim's algorithm."
             },
             "difficulty": "advanced"
         },
@@ -55,7 +62,10 @@
             },
             "correctAnswer": "d",
             "explanations": {
-                "d": "If cycles are present in a MST, then it is not a tree. Prim\u2019s Algorithm works in an efficient way such that it never accepts a cycle."
+                "a": "Incorrect. Heap can be used to implement Prim’s Algorithm is a correct statement.",
+                "b": "Incorrect. Prim’s algorithm spans from one vertex to another is a correct statement.",
+                "c": "Incorrect. Prim’s algorithm is an example of greedy algorithm is a correct statement.",
+                "d": "Correct. If cycles are present in a MST, then it is not a tree. Prim’s Algorithm works in an efficient way such that it never accepts a cycle."
             },
             "difficulty": "beginner"
         }
